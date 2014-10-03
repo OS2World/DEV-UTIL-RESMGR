@@ -1,0 +1,9 @@
+RESMGR is a resource decompiler/manager.  It
+can view/add/replace/remove resources from
+either a .EXE, a .DLL or a .RES file.  It can
+also decompile these resources into a .RC
+script.  Resources can be extracted from OS/2
+1.x or OS/2 2.x files (Warp included).
+[FREEWARE, w/ source code.  960217 release.]
+Author: Martin Lafaix (lafaix@alto.unice.fr)
+Patch: Veit.Kannegieser@gmx.de 20020420

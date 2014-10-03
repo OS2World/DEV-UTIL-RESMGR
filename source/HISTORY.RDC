@@ -1,0 +1,47 @@
+2.08.000    Feb 17 1996
+
+ --- Bug fixes:
+     o Correct handling of '/' in filenames.
+
+2.07.000    Feb 16 1996
+
+ --- Bug fixes:
+     o Fixed problem when module name has more than 8 characters.
+
+2.06.000    May 31 1995
+
+ --- New features:
+     o Adding exit codes (0 when OK, 1 when error and 2 when no resources).
+
+2.05.002    May 28 1995
+
+ --- Bug fixes:
+     o Font directory emitted as RESOURCE.
+     o Display info emitted as RESOURCE.
+     o Control characters are emitted as '\xnn'.
+
+2.05.001    May 27 1995
+
+ --- Bug fixes:
+     o closing infile before COPYing it.
+ --- New features:
+     o Nothing done when there's no resource.
+
+2.04.002    May 26 1995
+
+ --- Bug fixes:
+     o Special characters in strings are correctly emitted.
+     o Accelerators were incorrectly emitted.
+ --- New commands:
+     o Added a -l option (list content).
+ --- New features:
+     o Added packed (Iterated and Iterated II) resources support.
+     o Added direct EXE to RC translation.
+     o Improved error messages.
+     o Temporary files no longer overwrite pre-existing files.
+
+2.00.007    Apr 03 1994
+
+ --- First release to the unsuspecting public.
+     Included in EDM 2_6 (real code in 2_7).
+

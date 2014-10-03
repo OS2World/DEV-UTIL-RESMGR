@@ -1,0 +1,22 @@
+RESMGR - a resource management tool, by Martin Lafaix
+
+(c) Copyright Martin Lafaix 1994, 1995, 1996.  All rights Reserved.
+
+RESMGR is a collection of tools which allows you to manipulate
+resources.  That is, you can add, remove or extract resources from a
+binary resource file as well as from an executable file.
+
+The included files are:
+FILE_ID.DIZ -  A short description used by BBS.
+RDC.CMD -      The Resource Decompiler.
+RDC.INF -      The online user's guide.
+RDCPP.EXE -    The Resource Decompiler preprocessor.
+README -       Last minute and installation notes.
+RESMGR.ABS -   This description.
+RESMGR.CMD -   The Resource Manager.
+SOURCE.ZIP -   The corresponding source code, including:
+                  HISTORY.MGR - The Resource Manager Changelog.
+                  HISTORY.RDC - The Resource Decompiler Changelog.
+                  rdc.ipf -     The online user's guide tagged source file.
+                  rdcpp.c -     The Resource Decompiler preprocessor C code.
+                  rdcpp.h -     The Resource Decompiler preprocessor C header.

@@ -1,0 +1,19 @@
+0.04.000    Feb 17 1996
+
+ --- Bug fixes:
+     o Correct handling of '/' in filenames.
+
+0.03.000    Feb 16 1996
+
+ --- Bug fixes:
+     o Minor fixes in the help message.
+
+0.02.000    Jun 19 1995
+
+ --- Bug fixes:
+     o Drive name can be specified in filename.
+
+0.01.006    May 31 1995
+
+ --- First release.
+
