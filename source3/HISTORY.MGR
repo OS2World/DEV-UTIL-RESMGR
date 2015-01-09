@@ -1,0 +1,35 @@
+0.06.000    Apr 29 2002
+
+ --- Bug fixes:
+     o Better parameter checking.
+     o Fixed incorrect names for stringtables and messagetables.
+ --- Misc. changes:
+     o More user-friendly reports (summary lines and such).
+     o An empty resource file is now considered valid.
+
+0.05.000    Apr 23 2002
+
+ --- Bug fixes:
+     o Removing all resources from a file now works without complaining.
+       (If the system-provided RC version does not support removing all
+       resources, a dummy string resource is added.)
+
+0.04.000    Feb 17 1996
+
+ --- Bug fixes:
+     o Correct handling of '/' in filenames.
+
+0.03.000    Feb 16 1996
+
+ --- Bug fixes:
+     o Minor fixes in the help message.
+
+0.02.000    Jun 19 1995
+
+ --- Bug fixes:
+     o Drive name can be specified in filename.
+
+0.01.006    May 31 1995
+
+ --- First release.
+

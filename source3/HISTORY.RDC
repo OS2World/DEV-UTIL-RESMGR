@@ -1,0 +1,96 @@
+2.15.001    Apr 29 2002
+
+ --- Bug fixes:
+     o Better parameters checking.
+     o RCDATA now inlined to handle old broken RC versions.
+     o Modified string output to handle new broken RC versions.
+     o String IDs now handled in RES files.
+     o Strip trailing '00'x in DLGINCLUDE filename.
+
+2.14.000    Apr 26 2002
+
+ --- Bug fixes:
+     o Fixed MESSAGETABLE dump broken in 2.13.000.
+     o Filename quoted in RESOURCE statements.
+
+2.13.000    Apr 24 2002
+
+ --- Bug fixes:
+     o -K was badly broken, fixed.
+     o Always produce explicit CODEPAGE statements.
+     o Delete already existing files instead of overwriting them.
+
+2.12.000    Apr 23 2002
+
+ --- Bug fixes:
+     o If RC2 file already exists, overwrite it instead of appending
+       to it.
+
+2.11.000    Apr 22 2002
+
+ --- Bug fixes:
+     o Trailing spaces in string resources were not preserved.  Thanks
+       Veit Kannegiester for pointing it.
+ --- New features:
+     o Optionally use "clearer" names for extracted resources (ID is
+       kept in filename).
+     o .RES extraction is now much faster (using Veit Kannegiester's
+       replacement for RDCPP).
+
+2.10.000    Dec 21 2000
+
+ --- New features:
+     o Call Paul Ratcliffe's RES2DLG if found in the PATH when appropriate.
+
+2.09.000    Feb 22 2000
+
+ --- Bug fixes:
+     o Type 1 menus (i.e., those with PRESPARAMS) now correctly handled.
+       (Bug reported by Christian Langanke.)
+
+2.08.000    Feb 17 1996
+
+ --- Bug fixes:
+     o Correct handling of '/' in filenames.
+
+2.07.000    Feb 16 1996
+
+ --- Bug fixes:
+     o Fixed problem when module name has more than 8 characters.
+
+2.06.000    May 31 1995
+
+ --- New features:
+     o Adding exit codes (0 when OK, 1 when error and 2 when no resources).
+
+2.05.002    May 28 1995
+
+ --- Bug fixes:
+     o Font directory emitted as RESOURCE.
+     o Display info emitted as RESOURCE.
+     o Control characters are emitted as '\xnn'.
+
+2.05.001    May 27 1995
+
+ --- Bug fixes:
+     o closing infile before COPYing it.
+ --- New features:
+     o Nothing done when there's no resource.
+
+2.04.002    May 26 1995
+
+ --- Bug fixes:
+     o Special characters in strings are correctly emitted.
+     o Accelerators were incorrectly emitted.
+ --- New commands:
+     o Added a -l option (list content).
+ --- New features:
+     o Added packed (Iterated and Iterated II) resources support.
+     o Added direct EXE to RC translation.
+     o Improved error messages.
+     o Temporary files no longer overwrite pre-existing files.
+
+2.00.007    Apr 03 1994
+
+ --- First release to the unsuspecting public.
+     Included in EDM 2_6 (real code in 2_7).
